@@ -6,4 +6,6 @@
         
         <bean id="upperCaseConsoleWriter" class="com.spyroub.spring.dani.writer.UpperCaseConsoleWriter"/>
         <bean id="lowerCaseConsoleWriter" class="com.spyroub.spring.dani.writer.LowerCaseConsoleWriter"/>
+        <bean id="stringModifier" class="com.spyroub.dani.StringModifier"/>
+        
 </beans>

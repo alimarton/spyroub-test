@@ -18,7 +18,11 @@
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-context</artifactId>
 			<version>${spring.version}</version>
-			<scope>compile</scope>
+   		</dependency>
+   		<dependency>
+   			<groupId>com.spyroub</groupId>
+   			<artifactId>string-modifier</artifactId>
+   			<version>0.0.1</version>
    		</dependency>
     </dependencies>
 </project>
