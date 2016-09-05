@@ -8,7 +8,7 @@ import com.spyroub.spring.dani.writer.ConsoleWriter;
 public class Main {
 
 	public static void main(String[] args) {
-		ApplicationContext ac = new GenericXmlApplicationContext("spring-beans.xml");
+		@SuppressWarnings("resource") ApplicationContext ac = new GenericXmlApplicationContext("spring-beans.xml");
 		System.out.println(ac.getBeansOfType(ConsoleWriter.class));
 	}
 }
