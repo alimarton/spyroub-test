@@ -1,3 +1,4 @@
 language: java
 jdk: oraclejdk8
-build: echo folder: $TARGET_FOLDER
+script: 
+   - "echo folder: $TARGET_FOLDER"
