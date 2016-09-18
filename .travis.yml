@@ -1,3 +1,4 @@
 language: java
 jdk: oraclejdk8
-build: mvn clean install
+after success:
+	- echo 'folder: $TARGET_FOLDER'
