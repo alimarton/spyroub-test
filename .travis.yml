@@ -1,5 +1,4 @@
 language: java
 jdk: oraclejdk8
-deploy: 
-   script: deploy_webpage.sh
+script: deploy_webpage.sh
 dist: xenial
